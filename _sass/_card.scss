@@ -32,10 +32,6 @@ $card-shadow: 0 0 2px 2px rgba(#000, 0.2);
 }
 
 .card {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   background: $card-background-inactive;
   animation: 1s linear 5s card-shine 3;
   border: 1px solid darken($card-border, 10%);
