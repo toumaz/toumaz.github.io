@@ -13,10 +13,6 @@ $(function(){
   var $el = $("#card");
   $el.click(function(event) {
     $el.addClass('is-active is-used');
-    event.stopPropagation();
-  });
-  $(document).click(function() {
-    $el.removeClass('is-active');
   });
 });
 </script>
