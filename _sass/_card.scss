@@ -48,6 +48,7 @@ $card-shadow: 0 0 2px 2px rgba(#000, 0.2);
   box-shadow: $card-shadow;
   transition: 0.3s all ease-in-out;
   cursor: zoom-in;
+  overflow: hidden;
 
   a {
     pointer-events: none;
