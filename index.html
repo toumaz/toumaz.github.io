@@ -1,23 +1,32 @@
 ---
-layout: default
+layout: card
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<h1>Tomas Olander</h1>
+<p class="tagline">
+  I write code and help others do the same.
+</p>
+<p class="titles">
+  Programmer at <a href="http://tension.se">Tension Graphics</a>.<br>
+  Teacher at <a href="http://playgroundsquad.com">PlaygroundSquad</a>
+  and <a href="http://www.falufri.se">FaluFri</a>.
+</p>
+<nav>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/tomasolander" title="LinkedIn">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/toumaz" title="GitHub">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:tomasolander@gmail.com" title="Email">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</nav>

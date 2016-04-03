@@ -1,0 +1,117 @@
+$card-background: #fff;
+$card-background-inactive: darken($card-background, 3%);
+$card-border: #ccc;
+$card-icon: darken($card-border, 25%);
+$card-brand-color: #36f;
+
+html.layout-card {
+  height: 100%;
+}
+
+html.layout-card body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+$card-shadow: 0 0 2px 2px rgba(#000, 0.2);
+
+@keyframes card-shine {
+  0% {
+    box-shadow: $card-shadow;
+  }
+  50% {
+    box-shadow: 0 0 10px 10px rgba(#000, 0.1);
+  }
+  100% {
+    box-shadow: $card-shadow;
+  }
+}
+
+.card {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: $card-background-inactive;
+  animation: 1s linear 5s card-shine 3;
+  border: 1px solid darken($card-border, 10%);
+  padding: 0 1rem;
+  transform: perspective(300px)
+             translateZ(-400px)
+             rotateX(50deg)
+             rotateZ(-40deg)
+  ;
+  box-shadow: $card-shadow;
+  transition: 0.3s all ease-in-out;
+  cursor: zoom-in;
+
+  a {
+    pointer-events: none;
+  }
+}
+
+.card.is-used {
+  animation: none;
+}
+
+.card.is-active,
+.card:focus {
+  animation: none;
+  background: $card-background;
+  border-color: $card-border;
+  transform: none;
+  outline: none;
+  box-shadow: none;
+  cursor: auto;
+
+  a {
+    pointer-events: auto;
+  }
+}
+
+.card h1 {
+  margin: 0.5rem 0;
+  border-bottom: 1px solid darken($card-border, 10%);
+}
+
+.card p {
+  margin: 0 0 0.5rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  font-size: 2rem;
+}
+
+.card ul a {
+  color: $card-icon;
+
+  &:hover, &:focus {
+    color: darken($card-icon, 20%);
+  }
+}
+
+.card ul > li {
+  display: block;
+  flex-grow: 1;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.card .titles {
+  color: #555;
+  font-size: 0.9rem;
+
+  a {
+    color: #555;
+    font-weight: 700;
+  }
+}
+
