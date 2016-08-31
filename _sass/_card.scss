@@ -4,11 +4,11 @@ $card-border: #ccc;
 $card-icon: darken($card-border, 25%);
 $card-brand-color: #36f;
 
-html.layout-card {
+html {
   height: 100%;
 }
 
-html.layout-card body {
+html body {
   min-height: 100%;
   display: flex;
   align-items: center;
