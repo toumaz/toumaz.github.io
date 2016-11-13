@@ -55,7 +55,7 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 ### September 2015
 
-* Supervised [four graduation projects][psq2015p3] at
+* Supervised [four graduation projects][psq2014p3] at
   [PlaygroundSquad].
 
 ### August 2015
