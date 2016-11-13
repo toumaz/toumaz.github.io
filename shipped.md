@@ -55,7 +55,7 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 ### September 2015
 
-* Supervised [four graduation projects][psq2014p3] at
+* Supervised [three graduation projects][psq2014p3] at
   [PlaygroundSquad].
 
 ### August 2015
@@ -78,6 +78,7 @@ Here's a list in reverse chronology of stuff I've gotten done.
   Wrote all code and implemented design from PSD mockups.
 
 ### March 2015
+* Supervised [four game projects][psq2014p2] at [PlaygroundSquad].
 * Shipped **Monkey Bars**, an internal statistics service at
   [PlaygroundSquad] with a Premake addon that makes Visual Studio report project
   build outcomes and times for statistics keeping. Real-time builds displayed on
