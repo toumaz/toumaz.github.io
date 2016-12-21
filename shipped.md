@@ -116,7 +116,7 @@ Here's a list in reverse chronology of stuff I've gotten done.
   GitHub PR in the process.
 
 ### February 2014
-* Shipped [uk.playgroundsquad.com] for the UK branch of [[PlaygroundSquad]] with
+* Shipped [uk.playgroundsquad.com] for the UK branch of [PlaygroundSquad] with
   an online application flow for the education. Built with Django, MySQL, and
   Amazon S3 with direct uploads to S3 from the browser to accomodate large
   work sample files.
