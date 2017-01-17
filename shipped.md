@@ -8,6 +8,15 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 <img src="/img/monkeybars.jpg">
 
+## 2017
+
+### January 2017
+* Helped ship [Ruckus Rumble] for the PlayStation 4.
+  Main responsibilities were compliance testing and mastering.
+* Taught *Scripting* for designer students at [PlaygroundSquad].
+
+[Ruckus Rumble]: https://blog.eu.playstation.com/2017/01/16/bomberman-style-battler-ruckus-rumble-is-latest-ps4-title-from-playstation-first-programme/
+
 ## 2016
 
 ### November 2016
