@@ -6,8 +6,6 @@ title: "Skills"
 
 The knowledge in my toolbox.
 
-<img src="/img/field.jpg">
-
 ## General
 
 ### Programming languages

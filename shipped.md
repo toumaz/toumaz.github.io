@@ -6,8 +6,6 @@ title: "Shipped"
 
 Here's a list in reverse chronology of stuff I've gotten done.
 
-<img src="/img/monkeybars.jpg">
-
 ## 2017
 
 ### March 2017

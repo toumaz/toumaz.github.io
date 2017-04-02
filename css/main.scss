@@ -5,10 +5,14 @@
 
 $text-color: #111;
 
-body {
+html {
+  font-size: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   line-height: 1.5;
+  overflow-y: scroll;
+}
+
+body {
   color: $text-color;
   background-color: #fdfdfd;
   padding-top: 0.5rem;
@@ -16,7 +20,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 960px;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
@@ -61,4 +65,25 @@ a:focus {
 
 img {
   width: 100%;
+}
+
+ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 110%;
+  }
+
+  ul {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 125%;
+  }
 }
