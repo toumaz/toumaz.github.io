@@ -12,6 +12,11 @@ Here's a list in reverse chronology of stuff I've gotten done.
 * Spoke at the Technology Fair 2017, Borlänge.
 * Supervised [three game projects][psq2016p2] at [PlaygroundSquad].
 
+### February 2017
+* Shipped [KT OmniView], an app for the PyeongChang 2018 Winter Olympic Games
+  Test Events. I integrated a REST API from a third-party provider using C++,
+  Java, and Python.
+
 ### January 2017
 * Helped ship [Ruckus Rumble] for the PlayStation 4.
   Main responsibilities were compliance testing and mastering.
@@ -203,6 +208,8 @@ Here's a list in reverse chronology of stuff I've gotten done.
 [Ambassador Kane]: https://www.playstation.com/en-gb/games/ambassador-kane-psp/
 [pnlapp]: http://pnlapp.se/
 [pnlapp_web]: http://pnlapp.se/app
+
+[KT OmniView]: https://www.youtube.com/watch?v=yrcEPNEFf-Y
 
 [Falun 2015 Live]: https://www.youtube.com/watch?v=jYYx8jcba3k
 [Falun 2015 iOS]: https://itunes.apple.com/us/app/falun2015-live/id941542692?mt=8
