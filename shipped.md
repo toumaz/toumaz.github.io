@@ -8,6 +8,14 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 ## 2017
 
+### July 2017
+* Built the [official Peace & Love app][pnlapp] using Ember and Cordova on
+  the frontend and a REST API backend using Django and Wagtail.
+  You can [try it out online][pnlapp_web].
+
+### March 2017
+* Spoke at the Technology Fair 2017, Borlänge.
+
 ### March 2017
 * Spoke at the Technology Fair 2017, Borlänge.
 * Supervised [three game projects][psq2016p2] at [PlaygroundSquad].
