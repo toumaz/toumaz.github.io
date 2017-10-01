@@ -47,9 +47,9 @@ I'm a full-stack developer with a preference for Python.
 * Memcached
 
 ### Frontend
-* Ember
+* React, Ember
 * Foundation
-* Grunt, Gulp
+* Webpack, Grunt, Gulp
 
 ## DevOps
 
