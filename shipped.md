@@ -15,9 +15,6 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 ### March 2017
 * Spoke at the Technology Fair 2017, Borlänge.
-
-### March 2017
-* Spoke at the Technology Fair 2017, Borlänge.
 * Supervised [three game projects][psq2016p2] at [PlaygroundSquad].
 
 ### February 2017
