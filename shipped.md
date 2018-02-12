@@ -6,7 +6,20 @@ title: "Shipped"
 
 Here's a list in reverse chronology of stuff I've gotten done.
 
+## 2018
+
+### February 2018
+* Shipped [KT OmniView], an app for the PyeongChang 2018 Winter Olympic Games.
+  I integrated a REST API from a third-party provider using C++,
+  Java, and Python.
+
+### January 2018
+* Taught *Game programming 2* and *Scripting* at [PlaygroundSquad].
+
 ## 2017
+
+### November 2017
+* Supervised [six game projects][psq2017p1] at [PlaygroundSquad].
 
 ### September 2017
 * Supervised [four graduation projects][psq2016p3] at [PlaygroundSquad].
@@ -204,6 +217,7 @@ Here's a list in reverse chronology of stuff I've gotten done.
 
 [psq2016programmers]: https://playgroundsquad.com/students/2016/?discipline=programmer
 [psq2015programmers]: https://playgroundsquad.com/students/2015/?discipline=programmer
+[psq2017p1]: https://playgroundsquad.com/projects/?cohort=2017&number=1
 [psq2016p3]: https://playgroundsquad.com/projects/?cohort=2016&number=3
 [psq2016p2]: https://playgroundsquad.com/projects/?cohort=2016&number=2
 [psq2015p3]: https://playgroundsquad.com/projects/?cohort=2015&number=3
