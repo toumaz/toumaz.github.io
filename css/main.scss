@@ -47,19 +47,33 @@ h1 a {
   margin: -($logo-padding * 0.5) -$logo-padding;
   margin-right: -($logo-padding * 0.5);
   color: $text-color;
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 h1 a:hover,
 h1 a:focus {
-  background: mix(#fff, $link-color, 80%);
-  color: mix($text-color, #fff, 90%);
   text-decoration: none;
+  background-image: linear-gradient(
+    73deg,
+    rgba(128, 192, 255, 0.35),
+    rgba(128, 192, 255, 0.55),
+    rgba(128, 192, 255, 0.15)
+    );
+  border-radius: 8% 20% 38% 50%;
 }
 
 h2 {
   font-size: 1.5rem;
-  border-bottom: 1px #888 solid;
+  padding-bottom: 0.5rem;
+  background-size: auto 0.3rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    75deg,
+    rgba(255, 192, 128, 0.55),
+    rgba(255, 192, 128, 0.85),
+    rgba(255, 192, 128, 0.15)
+    );
+  border-radius: 2% 1% 8% 5%;
 }
 
 h3 {
@@ -77,6 +91,32 @@ a:focus {
   text-decoration: underline;
 }
 
+.lead {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  background-size: auto 0.5rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    75deg,
+    rgba(255, 192, 128, 0.35),
+    rgba(255, 192, 128, 0.85),
+    rgba(255, 192, 128, 0.25)
+    );
+  border-radius: 2% 1% 2% 5%;
+}
+
+.lead strong {
+  background-image: linear-gradient(
+    75deg,
+    rgba(255, 192, 128, 0.35),
+    rgba(255, 192, 128, 0.85),
+    rgba(255, 192, 128, 0.25)
+    );
+  border-radius: 5% 30% 20% 40%;
+}
+
+
 img {
   width: 100%;
 }
@@ -86,9 +126,23 @@ ul {
   padding-left: 2rem;
 }
 
-@media screen and (min-width: 700px) {
+.desktop-only {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .desktop-only {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 800px) {
   html {
     font-size: 110%;
+  }
+
+  .lead {
+    font-size: 1.2rem;
   }
 
   ul {
@@ -99,5 +153,9 @@ ul {
 @media screen and (min-width: 1000px) {
   html {
     font-size: 125%;
+  }
+
+  .lead {
+    font-size: 1.35rem;
   }
 }
