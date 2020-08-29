@@ -8,7 +8,17 @@ Here's a list in reverse chronology of stuff I've done.
 
 ## King (2018-present)
 
-Developer on the game technology team for Candy Crush Saga.
+Senior developer on the game technology team for Candy Crush Saga.
+
+* Ownership of long-term technical stability and operative capabilities of
+  the game, responsible evolution of legacy systems, and further development.
+* Supporting and mentoring production teams to help ensure technical KPIs for
+  new functionality, defining standards and educating across different crafts
+  in technical design, optimization of real-time applications, and performance
+  key figures.
+* Working closely to production including regular releases of features to
+  several hundred million players every two weeks, with active participation
+  in incident management as necessary.
 
 ## Tension Graphics (2011-2018)
 
